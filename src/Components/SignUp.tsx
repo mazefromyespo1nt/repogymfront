@@ -57,7 +57,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
             <div className="col-md-12">
               <div className="card-body">
                 <h3 className="card-title text-center text-secondary mt-3 mb-3">
-                  Sign Up Form
+                  Registro de personal
                 </h3>
                 <form
                   className="row"
@@ -66,7 +66,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
                 >
                   <div className="col-md-6">
                     <div className="">
-                      <label className="form-label">Firstname</label>
+                      <label className="form-label">Nombre</label>
                       <input
                         type="text"
                         className="form-control form-control-sm"
@@ -84,7 +84,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
                   </div>
                   <div className="col-md-6">
                     <div className="">
-                      <label className="form-label">Lastname</label>
+                      <label className="form-label">Segundo Nombre</label>
                       <input
                         type="text"
                         className="form-control form-control-sm"
@@ -116,7 +116,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
                     )}
                   </div>
                   <div className="">
-                    <label className="form-label">Password</label>
+                    <label className="form-label">Contraseña</label>
                     <input
                       type="password"
                       className="form-control form-control-sm"
@@ -132,7 +132,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
                     )}
                   </div>
                   <div className="">
-                    <label className="form-label">Confirm Password</label>
+                    <label className="form-label">Confirmar contraseña</label>
                     <input
                       type="password"
                       className="form-control form-control-sm"
@@ -159,7 +159,7 @@ const SignUp: FC<SomeComponentProps> = ({ history }) => {
                       Submit
                     </button>
                     <p className="card-text">
-                      Already have an account?{" "}
+                      Regresar al{" "}
                       <Link style={{ textDecoration: "none" }} to={"/login"}>
                         Log In
                       </Link>
